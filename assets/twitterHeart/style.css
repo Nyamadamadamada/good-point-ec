@@ -1,0 +1,44 @@
+.heart {
+	background: url(images/web_heart_animation.png);
+	background-position: left;
+	background-repeat: no-repeat;
+    height: 30%;
+    width: 30%;
+    cursor: pointer;
+    position: absolute;
+	bottom: -6%;
+    left: 74%;
+	background-size:2900%
+}
+
+@-webkit-keyframes heartBlast {
+	0% {
+		background-position: left;
+	}
+	100% {
+		background-position: right;
+	}
+	}
+
+	@keyframes heartBlast {
+	0% {
+		background-position: left;
+	}
+	100% {
+		background-position: right;
+	}
+}
+
+
+.heartAnimation {
+	display: inline-block;
+	animation-name: heartBlast;
+	animation-duration: .8s;
+	animation-iteration-count: 1;
+	animation-timing-function: steps(28);
+	background-position: right;
+}
+
+.heart-wrap{
+	display: f;
+}

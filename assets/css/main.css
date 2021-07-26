@@ -1,0 +1,70 @@
+body {
+    background-color: #FDFAF6;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none;
+}
+
+.headernav-favorite {
+    padding-left: 25px;
+    background-image: url(/ico_heart.svg);
+    background-size: 25px 25px;
+    padding-top: 5px;
+    font-size: 1rem;
+}
+
+.headernav-favorite-red {
+    padding-left: 25px;
+    background-image: url(/ico_heart_red.svg);
+    background-size: 25px 25px;
+    padding-top: 5px;
+    font-size: 1rem;
+}
+
+.headernav-cart {
+    padding-left: 25px;
+    background-image: url(/ico_cart.svg);
+    background-size: 25px 25px;
+    padding-top: 5px;
+    font-size: 1rem;
+}
+
+.headernav-cart-white {
+    padding-left: 25px;
+    background-image: url(/ico_cart_white.svg);
+    background-size: 25px 25px;
+    padding-top: 5px;
+    font-size: 1rem;
+}
+
+.headernav-flame {
+    padding-left: 25px;
+    background-image: url(/ico_flame.svg);
+    background-size: 27px 27px;
+    padding-top: 9px;
+    font-size: 1rem;
+    transition: all .2s 0s ease;
+}
+
+.headernav-flame:hover {
+    padding-left: 25px;
+    background-image: url(/ico_flame_red.svg);
+    background-size: 27px 27px;
+    padding-top: 9px;
+    font-size: 1rem;
+}
+
+.headernav-flame-white {
+    padding-left: 25px;
+    background-image: url(/ico_flame_white.svg);
+    background-size: 25px 25px;
+    padding-top: 6px;
+    padding-bottom: 1px;
+    font-size: 1rem;
+}

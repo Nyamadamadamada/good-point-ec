@@ -1,5 +1,5 @@
 <template>
-  <div id="cart" class="mx-4 p-4">
+  <div id="cart" class="p-4">
     <h2 class="my-4">やりがい確認</h2>
     <table class="table">
       <thead>
@@ -38,8 +38,8 @@ export default {
 
 <style scoped>
   #cart {
-    margin-top: 50px;
-    margin-bottom: 300px;
+    width: 76vw;
+    margin: 50px auto;
     background-color: #fff;
   }
   table {

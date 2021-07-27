@@ -44,12 +44,12 @@ export default {
     border-radius: 4px;
     overflow: hidden;
     width: 76vw;
-    height: 70vh;
+    height: 73vh;
   }
 
   &-content {
     padding: 10px 20px;
-    height: 60vh;
+    height: 63vh;
   }
 
   &-footer {

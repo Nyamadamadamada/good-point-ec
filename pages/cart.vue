@@ -1,6 +1,16 @@
 <template>
   <div id="cart" class="p-4">
-    <h2 class="my-4">やりがい確認</h2>
+    <h1>まとめ</h1>
+    <div class="py-4">
+      <p>・ECソリューション事業部にはたくさんいいところがある</p>
+      <p>・EC事業は三方良しの事業</p>
+      <ul>
+        <li><dt>売り手良し</dt><dd>顧客に喜んでもらえて、ごはんが食べられる</dd></li>
+        <li><dt>買い手良し</dt><dd>ECを導入することで利益ににつながる</dd></li>
+        <li><dt>世間良し</dt><dd>欲しい商品を手軽に購入できる</dd></li>
+      </ul>
+    </div>
+    <h4 class="my-4">やりがい確認</h4>
     <table class="table">
       <thead>
         <tr>
@@ -41,6 +51,7 @@ export default {
     width: 76vw;
     margin: 50px auto;
     background-color: #fff;
+    font-size: 1.3rem;
   }
   table {
     border-bottom: 1px solid #dee2e6;

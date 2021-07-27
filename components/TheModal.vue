@@ -43,7 +43,7 @@ export default {
     background: #fff;
     border-radius: 4px;
     overflow: hidden;
-    width: 80vw;
+    width: 76vw;
     height: 70vh;
   }
 

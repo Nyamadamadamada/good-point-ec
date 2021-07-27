@@ -154,7 +154,9 @@ export default {
   &-img {
     width: 50%;
     margin: auto;
+    text-align: center;
     img {
+      width: 100%;
       max-height: 400px;
     }
   }

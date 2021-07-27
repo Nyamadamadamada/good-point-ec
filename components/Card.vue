@@ -155,7 +155,7 @@ export default {
     width: 50%;
     margin: auto;
     img {
-      width: 100%;
+      max-height: 400px;
     }
   }
   &-contents {
